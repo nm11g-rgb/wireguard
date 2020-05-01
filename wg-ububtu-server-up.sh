@@ -139,6 +139,10 @@ echo "--------------------------------------------------------↑"
 echo && echo "Or you could find all the generated configs here: ${working_dir}"
 echo
 
+# run pi-hole installer
+echo "Running pi-hole installer..."
+sudo curl -sSL https://install.pi-hole.net | bash
+
 # reboot to make changes effective
 echo All done, reboot...
 reboot
