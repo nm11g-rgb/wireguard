@@ -12,6 +12,8 @@ wget https://raw.githubusercontent.com/nm11g-rgb/wireguard/master/wg-ububtu-serv
 
 chmod +x ./wg-ububtu-server-up.sh
 ./wg-ububtu-server-up.sh
+
+sudo curl -sSL https://install.pi-hole.net | bash
 ```
 
 To get a full instruction, please follow to the article above.
