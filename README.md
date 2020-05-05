@@ -8,12 +8,10 @@ Medium article: [How to deploy WireGuard node on a DigitalOcean's droplet](https
 ## Quick Start
 
 ```bash
-wget https://raw.githubusercontent.com/nm11g-rgb/wireguard/master/wg-ububtu-server-up.sh
+wget https://raw.githubusercontent.com/drew2a/wireguard/master/wg-ububtu-server-up.sh
 
 chmod +x ./wg-ububtu-server-up.sh
 ./wg-ububtu-server-up.sh
-
-sudo curl -sSL https://install.pi-hole.net | bash
 ```
 
 To get a full instruction, please follow to the article above.
