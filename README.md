@@ -14,6 +14,13 @@ chmod +x ./wg-ububtu-server-up.sh
 ./wg-ububtu-server-up.sh
 ```
 
+```bash
+wget https://raw.githubusercontent.com/nm11g-rgb/wireguard/master/install-pi-hole.sh
+
+chmod +x ./install-pi-hole.sh
+./install-pi-hole.sh
+```
+
 To get a full instruction, please follow to the article above.
 
 ## wg-ubuntu-server-up.sh
