@@ -157,7 +157,7 @@ server:
     private-address: 10.0.0.0/24
     private-address: fd00::/8
     private-address: fe80::/10
-    ENDOFFILE
+ENDOFFILE
 
 # give root ownership of the Unbound config
 sudo chown -R unbound:unbound /var/lib/unbound
